@@ -8,16 +8,17 @@ public class Example {
         myInterface.execute(10, 85);
     }
 
-    public void calculateMax(int reps, int weight) {
+    public void calculateMax(int reps, int weightxx) {
+        // this is a comment
         switch (reps) {
             case 10:
-                System.out.println("Your max is: " + weight * (1 / 3f + 1));
+                System.out.println("Your max is: " + weightxx * (1 / 3f + 1));
                 break;
             case 9:
-                System.out.println("Your max is: " + weight * (1 / 4f + 1));
+                System.out.println("Your max is: " + weightxx * (1 / 4f + 1));
                 break;
             case 8:
-                System.out.println("Your max is: " + weight * (1 / 5f + 1));
+                System.out.println("Your max is: " + weightxx * (1 / 5f + 1));
                 break;
         }
     }
