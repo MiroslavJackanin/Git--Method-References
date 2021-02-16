@@ -1,6 +1,7 @@
 package sk.it.first_type;
 
 public class Example {
+    // main method
     public static void main(String[] args) {
         Example example = new Example();
         MyInterface myInterface = example::calculateMax;
@@ -9,7 +10,9 @@ public class Example {
     }
 
     public void calculateMax(int reps, int weight) {
+        // why switch ?
         switch (reps) {
+             
             case 10:
                 System.out.println("Your max is: " + weight * (1 / 3f + 1));
                 break;
